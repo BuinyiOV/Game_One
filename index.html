@@ -1,0 +1,68 @@
+<DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Game One</title>
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<section class="menu">
+				<div class="menu__color color">
+					<p>Background Color:</p>
+					<div class="color__background background-color">
+						<button class="background-color__red-background" type="button"></button>
+						<button class="background-color__yellow-background" type="button"></button>
+						<button class="background-color__green-background" type="button"></button>
+						<button class="background-color__blue-background" type="button"></button>
+						<button class="background-color__pink-background" type="button"></button>
+					</div>
+					<p>Enemy Color:</p>
+					<div class="color__enemy enemy-color">
+						<button class="enemy-color__red-enemy" type="button"></button>
+						<button class="enemy-color__yellow-enemy" type="button"></button>
+						<button class="enemy-color__green-enemy" type="button"></button>
+						<button class="enemy-color__blue-enemy" type="button"></button>
+						<button class="enemy-color__pink-enemy" type="button"></button>
+					</div>
+				</div>
+				<p>Avatar:</p>
+				<div class="menu__avatar avatar">
+					<button class="avatar__batman" type="button"><img src="img/batman.png" alt=""></button>
+					<button class="avatar__dino" type="button"><img src="img/dino.png" alt=""></button>
+					<button class="avatar__frozen" type="button"><img src="img/frozen.png" alt=""></button>
+					<button class="avatar__pacman" type="button"><img src="img/pacman.png" alt=""></button>
+					<button class="avatar__pika" type="button"><img src="img/pika.png" alt=""></button>
+				</div>
+				<div class="menu__start start">
+					<button class="start__go">GO</button>
+				</div>
+			</section>
+			<section class="process">
+				<div class="game">
+					<div class="game__body">
+						<div class="game__monster1"></div>
+						<div class="game__monster2"></div>
+						<div class="game__monster3"></div>
+						<div class="game__monster4"></div>
+						<div class="game__items">
+							<div class="game__result result">
+								Result: <span></span>
+								<div class="result">
+									<button class="result__gomenu">Menu</button>
+								</div>
+							</div>
+						</div>
+						<div class="game__counter"></div>
+					</div>
+					<div class="game__win">YOU WIN!!!</div>
+				</div>
+			</section>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+
+	</html>
